@@ -1,0 +1,260 @@
+/* CSS */
+
+#pageWrapper {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: rgba(242,242,242, .3);
+    color: rgba(20,20,20, .9);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#colorBox,
+#doubleCheck {
+    width: 45%;
+    height: 400px;
+    background-color: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin: 20px auto;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(20,20,20, .9);
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgba(20,20,20, .9);
+    
+}
+/*****************************************************************************************************************************
+NAV
+******************************************************************************************************************************/
+
+nav {
+    border-bottom: 4px solid rgba(220,220,220, 1);
+}
+
+#navContents {
+    position: relative;
+    left: -65px; 
+}
+
+
+nav ul,
+nav ul li,
+nav h1 {
+    display: inline-block;
+    
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    margin: 0 14px;
+}
+
+nav ul li:first-child {
+    border-right: 2px solid rgba(220,220,220, 1);
+    padding-right: 15px;
+    
+}
+
+nav h1 {
+    margin: 0 0 0 40px; 
+}
+
+
+
+/*****************************************************************************************************************************
+VALUE BOXES
+******************************************************************************************************************************/
+
+#rgbaValue,
+#hexValue {
+    background-color: rgba(240, 240, 240, .8);
+    padding: 20px;
+    margin-top: 150px;
+    font-weight: 800;
+}
+
+
+#rgbaValuePage2 {
+    background-color: rgba(240, 240, 240, .8);
+    padding: 20px;
+    margin-top: 150px;
+    font-weight: 800;
+    display: inline;
+    z-index: 100;
+    position: relative;
+    top: 195px;
+    left: -40px;
+    padding: 20px 160px;
+    overflow: none;
+}
+
+#hexValuePage2 {
+    background-color: rgba(240, 240, 240, .8);
+    padding: 20px;
+    margin-top: 150px;
+    font-weight: 800;
+    display: inline;
+    z-index: 100;
+    position: relative;
+    top: 195px;
+    left: -6px;
+    padding: 20px 180px;
+    overflow: hidden;
+}
+
+/******************************************************************************************************
+SWATCHES
+*******************************************************************************************************/
+
+ .swatchColor {
+     width: 56%;
+     height: 200px;
+     line-height: 200px;
+ }
+
+#plalletteBox1,
+#plalletteBox2 {
+    width: 45%;
+    height: 400px;
+    background-color: none;
+    display: inline-block;
+    margin-top: 50px;
+    padding: none;
+}
+
+
+#swatch1{
+    background-color: none;
+    position: relative;
+    left: -40px;
+    top: -16px;    
+}
+
+#swatch2{
+    background-color: none;
+    position: relative;
+    left: -40px;
+    top: -16px; 
+    overflow: hidden;
+}
+
+#swatch3{
+     background-color: none;
+    position: relative;
+    left: 139px;
+    top: -416px; 
+    overflow: hidden;
+}
+
+#swatch4{
+    background-color: none;
+    position: relative;
+    left: 139px;
+    top: -416px; 
+    overflow: hidden;
+}
+
+#swatch5{
+    background-color: none;
+    position: relative;
+    top: -16px;    
+}
+
+#swatch6{
+    background-color: none;
+    position: relative;
+    left: 0px;
+    top: -16px; 
+    overflow: hidden;
+}
+
+#swatch7{
+     background-color: none;
+    position: relative;
+    left: 185px;
+    top: -416px; 
+    overflow: hidden;
+}
+
+#swatch8{
+    background-color: none;
+    position: relative;
+    left: 185px;
+    top: -416px; 
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+#plalletteBox1 ul {
+    margin: none;
+    padding: none;
+}
+
+li {
+    list-style: none;
+    margin: none;
+    padding: none;
+}
+    
+    
+    
+    
+.pageTwoButton {
+    position: relative;
+    top: -400px;
+}
+    
+    
+    
+    
+/******************************************************************************************************
+BUTTON
+*******************************************************************************************************/
+    
+button {
+    width: 200px;
+    height: 40px;
+    background-color: rgba(220,220,220, 1);
+    border: none;
+    font-weight: 800
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

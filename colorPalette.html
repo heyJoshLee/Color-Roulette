@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.1.js"></script>
+    <script src="script.js"></script>
+    
+    
+    <title>Color Roulette </title>
+    </head>
+<body>
+    <div id='pageWrapper'>
+        <nav>
+            <div id='navContents'>
+                <ul>
+                <li><a href='index.html'>Single Color</a></li>
+                <li><a href='colorPalette.html'>Color Palette</a></li>
+                </ul>
+                <h1><a href='index.html'>Color Roulette</a></h1>
+
+                <ul>
+                <li><a href='about.html'>About</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+                </ul>
+            </div> <!-- nav Contents -->
+            
+        </nav>
+    
+        <div id='plalletteBox1'>
+            <ul><div id='displayValues'>
+                <div id='rgbaValuePage2'>RGBA</div>
+            </div>
+                <li><div class="swatchColor" id='swatch1'>swatch1</div></li>
+                <li><div class='swatchColor' id='swatch2'>swatch2</div></li>
+                <li><div class='swatchColor' id='swatch3'>swatch3</div></li>
+                <li><div class='swatchColor' id='swatch4'>swatch4</div></li>
+                
+            </ul>
+            
+            
+        </div>
+        
+        <div id='plalletteBox2'>
+            <div id='hexValuePage2'>HEX</div>
+            <div class='swatchColor' id='swatch5'>swatch5</div>
+            <div class='swatchColor' id='swatch6'>swatch6</div>
+            <div class='swatchColor' id='swatch7'>swatch7</div>
+            <div class='swatchColor' id='swatch8'>swatch8</div>
+            
+             
+            
+            </div>
+        
+ 
+
+
+        <button id='button' class='pageTwoButton' onclick='generatePallette()' >Generate Pallette</button>
+    </div>
+    
+    </body>
+
+</html>
